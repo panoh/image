@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T14:57:12.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" version="24.4.13" etag="4y-vtLgqUzdL1DR0QKVt" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T16:05:51.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="Hno1c5ro7AkFVg1Uxg9P" version="24.4.13" type="github">
   <diagram name="第 1 页" id="RbH5lkm8DbjJwt2CpNfJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1172" dy="669" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NoYPc4VF9cQ_SaUPsseD-3" target="NoYPc4VF9cQ_SaUPsseD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-3" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;一级空间配置器&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="290" y="18" width="186" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NoYPc4VF9cQ_SaUPsseD-7" target="NoYPc4VF9cQ_SaUPsseD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;allocate 分配内存&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="283.5" y="120" width="199" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NoYPc4VF9cQ_SaUPsseD-9" target="NoYPc4VF9cQ_SaUPsseD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;成功&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NoYPc4VF9cQ_SaUPsseD-13">
+          <mxGeometry x="-0.0713" y="-3" relative="1" as="geometry">
+            <mxPoint x="26" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分配成功 ？&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="224" width="126" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;直接返回&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="53" y="352" width="133" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NoYPc4VF9cQ_SaUPsseD-14" target="NoYPc4VF9cQ_SaUPsseD-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-14" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;是否设置了内存分配失败的处理函数？&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="625" y="313" width="260" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NoYPc4VF9cQ_SaUPsseD-9" target="NoYPc4VF9cQ_SaUPsseD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;抛出异常&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;" vertex="1" parent="1">
+          <mxGeometry x="914" y="436" width="125" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-26;entryPerimeter=0;" edge="1" parent="1" source="NoYPc4VF9cQ_SaUPsseD-14" target="NoYPc4VF9cQ_SaUPsseD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NoYPc4VF9cQ_SaUPsseD-21" target="NoYPc4VF9cQ_SaUPsseD-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-21" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;执行处理函数，清理内存，然后尝试分配出一块内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="420" y="436" width="197" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;失败&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="248" width="54" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;失败&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="895" y="339" width="54" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-26" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;成功&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="341" y="265" as="geometry">
+            <mxPoint x="233" y="89" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;直接返回&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="296" y="670" width="152.89" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NoYPc4VF9cQ_SaUPsseD-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="629" y="479" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="683" y="590" />
+              <mxPoint x="683" y="479" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-29" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分配成功 ？&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="455.5" y="537" width="126" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-25.999999999999996;entryPerimeter=0;" edge="1" parent="1" source="NoYPc4VF9cQ_SaUPsseD-29" target="NoYPc4VF9cQ_SaUPsseD-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;成功&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="314.00470588235294" y="384.0000000000001" as="geometry">
+            <mxPoint x="103" y="190" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NoYPc4VF9cQ_SaUPsseD-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;失败&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="554" width="54" height="34" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
